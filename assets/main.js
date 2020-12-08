@@ -18,9 +18,9 @@ $(function() {
 //$second.css('transform', 'rotate(' + (360/60 * s) + 'deg)');
 
   $clockText.html(h + ":" + m + ":" + s + ":" + ms);
- $hour.css('transform', 'rotate(' + (360/24 * h) + 'deg)');
-  $minute.css('transform', 'rotate(' + (360/60 * m) + 'deg)');
-  $second.css('transform', 'rotate(' + (360/60 * s) + 'deg)');
+  $hour.css('transform', 'rotate(' + ((360/24 * h)+90) + 'deg)');
+  $minute.css('transform', 'rotate(' + ((360/60 * m)+90) + 'deg)');
+  $second.css('transform', 'rotate(' + ((360/60 * s)+90) + 'deg)');
 
     setTimeout(updateClock, clockUpdateSpeed);
   }
