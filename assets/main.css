@@ -23,7 +23,7 @@
 
 .clock{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 20%;
   width: 800px;
   height: 50px;
@@ -31,7 +31,7 @@
 
 .middle{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 20%;
   width: 800px;
   height: 50px;
